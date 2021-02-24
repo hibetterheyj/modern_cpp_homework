@@ -40,7 +40,7 @@ void html_writer::AddImage(const std::string &img_path, float score,
   // split the img file name
   fs::path fs_img_path{img_path};
   if (!fs::exists(fs_img_path)) {
-    std::cerr << "[ERROR] : Image does not exist\n";
+    std::cerr << "[ERROR] : Image " << fs_img_path << " does not exist\n";
     exit(EXIT_FAILURE);
   }
   std::string img_filename = fs_img_path.filename();

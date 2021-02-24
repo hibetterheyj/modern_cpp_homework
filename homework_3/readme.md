@@ -1,5 +1,14 @@
 # homework_3
 
+```shell
+mkdir build
+cd build
+cmake ..
+make
+cd ..
+./bin/create_image_browser > test.html
+```
+
 ## dependance
 
 - ~~fmt: https://fmt.dev/latest/usage.html~~ (deprecated)

@@ -8,12 +8,16 @@ using namespace image_browser;
 // using ImageRow = std::array<ScoredImage, 3>;
 
 void image_browser::AddFullRow(const ImageRow &row, bool first_row) {
-  bool highlight = false;
-  if (first_row == true) {
-    highlight = true;
-  }
   OpenRow();
+  int counter = 0;
+  bool highlight;
   for (const auto &scored_image_tuple : row) {
+    counter++;
+    if (counter == 1 && first_row) {
+      highlight = true;
+    } else {
+      highlight = false;
+    }
     auto [img_path, score] = scored_image_tuple;
     // std::cout << "value of text: " << scored_image_tuple << std::endl;
     AddImage(img_path, score, highlight);
