@@ -1,6 +1,6 @@
-## homework_1
+# homework_1
 
-### task_1
+## task_1
 
 ```shell
 cd task_1
@@ -8,7 +8,7 @@ chmod +x commands.sh
 ./commands.sh
 ```
 
-### task_2
+## task_2
 
 - part1
 

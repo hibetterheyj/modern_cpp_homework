@@ -1,13 +1,13 @@
-## homework_2
+# homework_2
 
-### task_1
+## task_1
 
 ```shell
 cd task_1
 ./bin/task_1
 ```
 
-### task_2
+## task_2
 
 ```shell
 cd task_2

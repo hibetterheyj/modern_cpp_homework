@@ -14,7 +14,6 @@ int main(int argc, char const *argv[]) {
     int num_list[2];
     std::string ext_list[2];
     for (int i = 1; i < argc; ++i) {
-      // cout << "Param: " << argv[i] << endl;
       std::istringstream is(argv[i]);
       std::string ext;
       int num;
