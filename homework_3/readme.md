@@ -9,6 +9,8 @@ cd ..
 ./bin/create_image_browser > test.html
 ```
 
+> **The generated page be can be found [here](https://hibetterheyj.github.io/modern_cpp_homework/homework_3/test.html).**
+
 ## dependance
 
 - ~~fmt: https://fmt.dev/latest/usage.html~~ (deprecated)

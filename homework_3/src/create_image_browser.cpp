@@ -31,7 +31,7 @@ auto CreateRows() {
     // ugly way to convert std::vector to std::array
     std::move(imgs_vec.begin(), imgs_vec.begin() + imgs_vec.size(),
               imgs_row.begin());
-    imgs_rows.push_back(imgs_row);
+    imgs_rows.emplace_back(imgs_row);
   }
   return imgs_rows;
 }
